@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+h1 h2 h3 h4 h5 h6 p ul ol {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --alu: "Poppins", sans-serif;
+}
+body{
+    background: url(../photo/satoru-gojo-3840x2160-15227.png);
+   
+}
+
+.m-manu ul li a::after {
+    content: " ";
+    width: 100%;
+    height: 2px;
+    background: yellow;
+    top: 100%;
+    left: 0;
+    position: absolute;
+    transform: scale(0);
+    transition: all linear .3s;
+
+}
+
+.m-manu ul li a:hover:after {
+    transform: scale(1.3);
+
+}
+
+.m-manu .mera-marzi li a::after {
+    content: " ";
+    width: 100%;
+    height: 2px;
+    background: white;
+    top: 100%;
+    left: 0;
+    position: absolute;
+    transform: scale(0);
+    transition: all linear .3s;
+
+}
+
+.m-manu ul li a:hover:after {
+    transform: scale(1.3);
+
+}
+
+.m-manu ul li .mera-marzi01 span{
+    transition: all linear .3s;
+}
+
+
+.m-manu ul li .mera-marzi01:hover span{
+    transform: rotate(180deg);
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.row .logo img {
+    width: 80px;
+    height: 80px;
+}
+
+#manu .row {
+    width: 100%;
+    display: flex;
+}
+
+#manu .row .m-manu {
+    display: flex;
+    align-items: center;
+    gap: 111px;
+    padding-left: 417px;
+}
+
+#manu .row ul li {
+    width: 30px;
+    position: relative;
+
+}
+
+#manu .row ul li a {
+    font-size: 15px;
+    font-weight: 500;
+    font-family: var(--alu);
+    color: #fff;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+
+
+#manu .row ul li a {
+    display: flex;
+    gap: 10px;
+
+}
+/* .eva-text li a{ */
+    /* color: #000; */
+/* } */
+/*  */
+
+.row .m-manu ul {
+    width: 100px;
+    background: transparent;
+    border: solid 1px #999;
+    border-radius: 8px;
+    text-align: center;
+    gap: 10px;
+    padding: 10px 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    opacity: 0;
+    transition: all linear .2s;
+    visibility: hidden;
+
+}
+
+.m-manu li:hover ul {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+.m-manu li:hover ul .fas.fa-arrow-right {  
+    transform: rotate(90deg);  
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .fa-arrow01 { */
+    /* transform: rotate(90deg); */
+/* } */
+
+
+/* .arrow .arrow01{ */
+    /* transform: rotate(90deg); */
+/* } */
+/*  */
+/* .row .m-manu ul:hover span{ */
+  /* transform: rotate(90deg);    */
+/* } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
